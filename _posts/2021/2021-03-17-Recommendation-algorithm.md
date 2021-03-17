@@ -14,7 +14,7 @@ tags: [CF]
 
 ### 主要推荐方法优缺点
 
-![service生命周期.jpg](http://boschjoya.github.io/assets/images/recommenndation-al-compare.png)
+![算法比较.png](https://raw.githubusercontent.com/boschjoya/boschjoya.github.io/dashen/assets/images/recommenndation-al-compare.png)
 
 ### 推荐算法的应用
 推荐算法已经应用到了各个领域的网站中，包括图书、音乐、视频、新闻、电影、地图等等。而电子商务的应用近年来逐渐普及，Amazoncom，ebay.com，Staples.com，当当网，豆瓣图书，淘宝网等都使用了电子商务推荐系统，推荐系统不止给这些互联网商家带来了巨大的附加利益，同时也提高了用户满意度，增加了用户黏性。
@@ -25,7 +25,7 @@ tags: [CF]
 ## 推荐系统
 下面贴了一张全局图，基本可以**参考算法层**的那几个常见算法(强化、迁移、深度学习也慢慢走入推荐算法的架构中)，每个算法的存在基本都是以产品功能、形态导向(比如新闻、电商、金融产品在推荐中主体、时效、风险等因素均差异很大，需要使用不同算法)，并且以某个算法主导，并辅之以其它算法(**来解决主算法的不足，或优化主算法**)，如**冷启动、商品深度、零结果率**等问题。
 
-![service生命周期.jpg](http://boschjoya.github.io/assets/images/recom-system.jpg)
+![推荐系统全局图.jpg](https://raw.githubusercontent.com/boschjoya/boschjoya.github.io/dashen/assets/images/recom-system.jpg)
 
 
 ### 常见的个性化推荐原理 DEMO
