@@ -4,12 +4,12 @@
 
         <h2>About ME</h2>
 
-        <p>I love coding. I like animal. I want to have four babies, one cat, one dog and two sheep. I would like to be a CTO in the future.</p>
+        <p>I love coding. I like animal. I'm a quick learner.I like new things.I want to have one cat, one dog. I would like to be the owner of a home stay in the future.</p>
 
         <h2>Contact</h2>
 
         <ul>
-            <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
+            <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>t
             <li>Website：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
         </ul>
 
@@ -61,6 +61,19 @@
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_algorithm_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Algorithm Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_algorithm_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>

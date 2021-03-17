@@ -85,7 +85,6 @@ editText.addTextChangedListener(new TextWatcher() {
 {% endhighlight %}
 
 如果使用 RxBinding, 就可以只关心其中的一个方法, 而不需要实现整个 `TextWatcher()`:
-
 {% highlight java %}
 EditText editText = (EditText) findViewById(R.id.editText);
 Subscription editTextSub = RxTextView.textChanges(editText).subscribe(new Action1<String>() {

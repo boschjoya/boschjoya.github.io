@@ -69,7 +69,7 @@ navs:
 
   -
     href: /about
-    label: About
+    label: About Me
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 6 # Number of repos to show
@@ -83,6 +83,7 @@ analytics :
 
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, Python, MySQL, Oracle, Design Patterns]
-skill_j2ee_keywords: [Spring, Springboot, Hibernet, MyBatis, JSP, Redis, MongoDB, RabbitMQ]
+skill_j2ee_keywords: [Spring, Springboot, Hibernet, MyBatis, JSP, Redis, MongoDB, RabbitMQ, OAuth2]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, Boostrap]
+skill_algorithm_keywords:[CF]
 skill_mobile_app_keywords: [Android]
